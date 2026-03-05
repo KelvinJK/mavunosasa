@@ -1013,35 +1013,51 @@
             <button class="modal-close" data-close-modal>&times;</button>
             <div class="modal-header">
                 <h2>❤️ Support Our Mission</h2>
-                <p>Choose how you'd like to make a difference</p>
+                <p>Tell us how you'd like to make a difference</p>
             </div>
             <div class="modal-body">
-                <div class="support-options">
-                    <div class="support-option" onclick="window.location.href='#collaborate'">
-                        <div class="support-option-icon">💵</div>
-                        <h3>Donate</h3>
-                        <p>Your financial contribution directly supports seed distribution to smallholder farmers, funds training programs in climate-smart agriculture, and helps build market infrastructure. Even TSh 10,000 can provide a farmer with improved seeds for one season.</p>
-                        <span class="support-action">Partner with us →</span>
+                <p class="modal-description">Whether you want to donate, volunteer your skills, partner as an organization, or help spread the word — fill out the form below and our team will follow up with next steps tailored to you.</p>
+                <form class="modal-form" id="supportForm" action="https://formsubmit.co/mentoratanzania@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="Support Our Mission - MavunoSasa">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" id="supportFormNextUrl">
+                    <div class="form-group">
+                        <label for="supportType">How would you like to support? *</label>
+                        <select name="support_type" id="supportType" required>
+                            <option value="" disabled selected>Select support type...</option>
+                            <option value="Donate">💵 Donate — Financial contribution to support farmers</option>
+                            <option value="Volunteer">🙋 Volunteer — Share your skills and time</option>
+                            <option value="Corporate Partnership">🏢 Corporate Partnership — CSR or organizational collaboration</option>
+                            <option value="Spread the Word">📢 Spread the Word — Help us reach more people</option>
+                        </select>
                     </div>
-                    <div class="support-option" onclick="window.location.href='#collaborate'">
-                        <div class="support-option-icon">🙋</div>
-                        <h3>Volunteer</h3>
-                        <p>We need agronomists, data analysts, translators, trainers, and community organizers. Whether you’re in Tanzania or abroad, your skills can help build tools, train farmers, or improve our programs. Remote and field roles available.</p>
-                        <span class="support-action">Explore opportunities →</span>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="supportName">Full Name *</label>
+                            <input type="text" name="name" id="supportName" placeholder="e.g. Maria Tarimo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="supportEmail">Email *</label>
+                            <input type="email" name="email" id="supportEmail" placeholder="you@example.com" required>
+                        </div>
                     </div>
-                    <div class="support-option" onclick="window.location.href='#collaborate'">
-                        <div class="support-option-icon">🏢</div>
-                        <h3>Corporate Partnership</h3>
-                        <p>Align your organization with sustainable agricultural development in Tanzania. We offer co-branded programs, CSR partnerships, supply chain collaborations, and impact reporting. Let’s build something meaningful together.</p>
-                        <span class="support-action">Start a partnership →</span>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="supportPhone">Phone</label>
+                            <input type="tel" name="phone" id="supportPhone" placeholder="+255 7XX XXX XXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="supportOrg">Organization (if applicable)</label>
+                            <input type="text" name="organization" id="supportOrg" placeholder="e.g. Company or NGO name">
+                        </div>
                     </div>
-                    <div class="support-option" onclick="window.location.href='#collaborate'">
-                        <div class="support-option-icon">📢</div>
-                        <h3>Spread the Word</h3>
-                        <p>Share MavunoSasa’s mission with your network. Follow us on social media, tell a farmer about our programs, or introduce us to potential partners. Awareness creates opportunity.</p>
-                        <span class="support-action">Share our story →</span>
+                    <div class="form-group">
+                        <label for="supportMessage">Tell us more about how you'd like to help *</label>
+                        <textarea name="message" id="supportMessage" placeholder="E.g. I'd like to donate towards seed distribution, or I have skills in data analysis and can volunteer remotely..." rows="4" required></textarea>
                     </div>
-                </div>
+                    <button type="submit" class="btn btn-primary btn-large btn-full">Submit</button>
+                </form>
             </div>
         </div>
     </div>

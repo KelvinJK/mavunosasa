@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const submitBtn = contactForm.querySelector('button[type="submit"]');
-            submitBtn.textContent = 'Inatuma... Sending...';
+            submitBtn.textContent = 'Sending...';
             submitBtn.disabled = true;
         });
     }
@@ -373,6 +373,11 @@ document.addEventListener('DOMContentLoaded', function() {
             nextUrlId: 'collabFormNextUrl',
             successTitle: 'Inquiry Received! 🤝',
             successMessage: 'Thank you for reaching out! Our partnerships team will respond within 48 hours.'
+        },
+        supportForm: {
+            nextUrlId: 'supportFormNextUrl',
+            successTitle: 'Thank You for Your Support! ❤️',
+            successMessage: 'We appreciate your willingness to support MavunoSasa! Our team will review your submission and follow up with next steps within 3 working days.'
         }
     };
 
