@@ -569,6 +569,19 @@ h4 {
     padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.vm-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+}
+
+.vm-icon svg {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.12));
 }
 
 /* What We Do Section */
