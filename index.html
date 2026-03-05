@@ -126,97 +126,14 @@
             <div class="vm-grid">
                 <div class="vm-card">
                     <div class="vm-icon">
-                        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                            <!-- 3D Target / Bullseye -->
-                            <defs>
-                                <radialGradient id="targetShadow" cx="50%" cy="55%" r="50%">
-                                    <stop offset="0%" stop-color="#000" stop-opacity="0.2"/>
-                                    <stop offset="100%" stop-color="#000" stop-opacity="0"/>
-                                </radialGradient>
-                                <linearGradient id="redRing1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#ff4757"/>
-                                    <stop offset="100%" stop-color="#c0392b"/>
-                                </linearGradient>
-                                <linearGradient id="redRing2" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#ff6b81"/>
-                                    <stop offset="100%" stop-color="#e74c3c"/>
-                                </linearGradient>
-                                <linearGradient id="arrowBody" x1="0%" y1="0%" x2="100%" y2="0%">
-                                    <stop offset="0%" stop-color="#bdc3c7"/>
-                                    <stop offset="50%" stop-color="#ecf0f1"/>
-                                    <stop offset="100%" stop-color="#95a5a6"/>
-                                </linearGradient>
-                            </defs>
-                            <!-- Shadow -->
-                            <ellipse cx="55" cy="108" rx="35" ry="6" fill="url(#targetShadow)"/>
-                            <!-- Outer red ring -->
-                            <ellipse cx="52" cy="58" rx="38" ry="38" fill="url(#redRing1)"/>
-                            <ellipse cx="52" cy="56" rx="38" ry="38" fill="url(#redRing2)"/>
-                            <!-- White ring -->
-                            <ellipse cx="52" cy="56" rx="29" ry="29" fill="#fff"/>
-                            <!-- Inner red ring -->
-                            <ellipse cx="52" cy="56" rx="21" ry="21" fill="url(#redRing1)"/>
-                            <!-- Inner white ring -->
-                            <ellipse cx="52" cy="56" rx="13" ry="13" fill="#fff"/>
-                            <!-- Center red dot -->
-                            <ellipse cx="52" cy="56" rx="6" ry="6" fill="#e74c3c"/>
-                            <!-- 3D highlight -->
-                            <ellipse cx="44" cy="44" rx="12" ry="8" fill="white" opacity="0.2" transform="rotate(-30 44 44)"/>
-                            <!-- Arrow shaft -->
-                            <rect x="52" y="38" width="42" height="5" rx="2" fill="url(#arrowBody)" transform="rotate(-32 52 40)"/>
-                            <!-- Arrow tip -->
-                            <polygon points="52,56 46,48 50,52" fill="#7f8c8d"/>
-                            <!-- Arrow fletching -->
-                            <polygon points="86,18 96,10 92,24" fill="#f39c12"/>
-                            <polygon points="86,18 94,26 90,14" fill="#e67e22"/>
-                        </svg>
+                        <img src="images/vision-target-3d.png" alt="Vision - Target">
                     </div>
                     <h3>Vision</h3>
                     <p>A future where every smallholder farmer has the resources, knowledge, and opportunity to thrive and build sustainable livelihoods.</p>
                 </div>
                 <div class="vm-card">
                     <div class="vm-icon">
-                        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                            <!-- 3D Pushpin -->
-                            <defs>
-                                <linearGradient id="pinTop" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#f39c12"/>
-                                    <stop offset="100%" stop-color="#e67e22"/>
-                                </linearGradient>
-                                <linearGradient id="pinBody" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#e74c3c"/>
-                                    <stop offset="40%" stop-color="#c0392b"/>
-                                    <stop offset="100%" stop-color="#e74c3c"/>
-                                </linearGradient>
-                                <linearGradient id="pinShine" x1="0%" y1="0%" x2="100%" y2="0%">
-                                    <stop offset="0%" stop-color="white" stop-opacity="0.3"/>
-                                    <stop offset="50%" stop-color="white" stop-opacity="0"/>
-                                    <stop offset="100%" stop-color="white" stop-opacity="0.1"/>
-                                </linearGradient>
-                                <radialGradient id="pinShadow" cx="50%" cy="50%" r="50%">
-                                    <stop offset="0%" stop-color="#000" stop-opacity="0.2"/>
-                                    <stop offset="100%" stop-color="#000" stop-opacity="0"/>
-                                </radialGradient>
-                            </defs>
-                            <!-- Shadow -->
-                            <ellipse cx="58" cy="110" rx="28" ry="5" fill="url(#pinShadow)"/>
-                            <!-- Pin needle -->
-                            <line x1="60" y1="88" x2="64" y2="108" stroke="#555" stroke-width="3" stroke-linecap="round"/>
-                            <line x1="60" y1="88" x2="64" y2="108" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
-                            <!-- Pin body (curved shape) -->
-                            <path d="M35,60 Q30,75 38,88 Q48,95 60,88 Q72,95 82,88 Q90,75 85,60 Z" fill="url(#pinBody)"/>
-                            <path d="M35,60 Q30,75 38,88 Q48,95 60,88 Q72,95 82,88 Q90,75 85,60 Z" fill="url(#pinShine)"/>
-                            <!-- Pin waist highlight -->
-                            <path d="M40,72 Q50,68 60,72 Q70,68 80,72" stroke="white" stroke-width="1" fill="none" opacity="0.2"/>
-                            <!-- Pin top disc -->
-                            <ellipse cx="60" cy="58" rx="28" ry="14" fill="url(#pinTop)"/>
-                            <!-- Top disc highlight -->
-                            <ellipse cx="54" cy="54" rx="16" ry="7" fill="white" opacity="0.25" transform="rotate(-5 54 54)"/>
-                            <!-- Top disc rim -->
-                            <ellipse cx="60" cy="58" rx="28" ry="14" fill="none" stroke="#d35400" stroke-width="1" opacity="0.4"/>
-                            <!-- Body side highlight -->
-                            <path d="M42,62 Q40,74 44,86" stroke="white" stroke-width="2" fill="none" opacity="0.15" stroke-linecap="round"/>
-                        </svg>
+                        <img src="images/mission-link-3d.png" alt="Mission - Connected">
                     </div>
                     <h3>Mission</h3>
                     <p>To empower smallholder farmers by providing access to agricultural inputs, training, financial services, and market linkages that enable them to increase productivity and improve their quality of life.</p>
@@ -327,34 +244,94 @@
         <div class="container">
             <h2>Voices from the Field</h2>
             <p class="section-intro">Hear from farmers transforming their lives with MavunoSasa</p>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="avatar avatar-placeholder">AM</div>
-                    <p class="testimonial-text">"Kabla ya MavunoSasa, nilikuwa napata gunia 5 tu kwa ekari. Sasa napata gunia 14. Watoto wangu wote wanasoma shule nzuri na maisha yamebadilika kabisa."</p>
-                    <p class="testimonial-translation">"Before MavunoSasa, I only got 5 bags per acre. Now I get 14. All my children attend good schools and life has completely changed."</p>
-                    <p class="testimonial-author">— Amina Mwakasaka</p>
-                    <p class="testimonial-role">Rice Farmer, Morogoro</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="avatar avatar-placeholder">JM</div>
-                    <p class="testimonial-text">"Mafunzo ya kilimo bora yamenisaidia sana. Sasa natumia mbegu bora na mbolea kwa wakati. Mazao yangu yameongezeka mara mbili na ninapata bei nzuri sokoni."</p>
-                    <p class="testimonial-translation">"The modern farming training helped me greatly. Now I use quality seeds and timely fertilizer. My yields have doubled and I get fair prices at market."</p>
-                    <p class="testimonial-author">— Juma Mhando</p>
-                    <p class="testimonial-role">Maize Farmer, Dodoma</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="avatar avatar-placeholder">RK</div>
-                    <p class="testimonial-text">"MavunoSasa wameniunganisha na wanunuzi wa kahawa moja kwa moja. Sasa siuzi kwa dalali — napata bei halisi ya kahawa yangu. Familia yangu inafurahi sana."</p>
-                    <p class="testimonial-translation">"MavunoSasa connected me directly with coffee buyers. Now I don't sell through middlemen — I get the real price for my coffee. My family is very happy."</p>
-                    <p class="testimonial-author">— Rehema Kileo</p>
-                    <p class="testimonial-role">Coffee Farmer, Mbeya</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="avatar avatar-placeholder">BS</div>
-                    <p class="testimonial-text">"Nilipata mkopo mdogo kupitia MavunoSasa kununua pembejeo. Msimu uliopita nilivuna maharage mengi kuliko miaka yote. Sasa naweza kuweka akiba na kupanga mustakabali wangu."</p>
-                    <p class="testimonial-translation">"I received a small loan through MavunoSasa to buy inputs. Last season I harvested more beans than any year. Now I can save and plan for my future."</p>
-                    <p class="testimonial-author">— Baraka Shayo</p>
-                    <p class="testimonial-role">Beans Farmer, Arusha</p>
+            <div class="testimonials-marquee">
+                <div class="testimonials-track">
+                    <!-- Original 6 testimonials -->
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">AM</div>
+                        <p class="testimonial-text">"Kabla ya MavunoSasa, nilikuwa napata gunia 5 tu kwa ekari. Sasa napata gunia 14. Watoto wangu wote wanasoma shule nzuri na maisha yamebadilika kabisa."</p>
+                        <p class="testimonial-translation">"Before MavunoSasa, I only got 5 bags per acre. Now I get 14. All my children attend good schools and life has completely changed."</p>
+                        <p class="testimonial-author">— Amina Mwakasaka</p>
+                        <p class="testimonial-role">Rice Farmer, Morogoro</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">JM</div>
+                        <p class="testimonial-text">"Mafunzo ya kilimo bora yamenisaidia sana. Sasa natumia mbegu bora na mbolea kwa wakati. Mazao yangu yameongezeka mara mbili na ninapata bei nzuri sokoni."</p>
+                        <p class="testimonial-translation">"The modern farming training helped me greatly. Now I use quality seeds and timely fertilizer. My yields have doubled and I get fair prices at market."</p>
+                        <p class="testimonial-author">— Juma Mhando</p>
+                        <p class="testimonial-role">Maize Farmer, Dodoma</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">RK</div>
+                        <p class="testimonial-text">"MavunoSasa wameniunganisha na wanunuzi wa kahawa moja kwa moja. Sasa siuzi kwa dalali — napata bei halisi ya kahawa yangu. Familia yangu inafurahi sana."</p>
+                        <p class="testimonial-translation">"MavunoSasa connected me directly with coffee buyers. Now I don't sell through middlemen — I get the real price for my coffee. My family is very happy."</p>
+                        <p class="testimonial-author">— Rehema Kileo</p>
+                        <p class="testimonial-role">Coffee Farmer, Mbeya</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">BS</div>
+                        <p class="testimonial-text">"Nilipata mkopo mdogo kupitia MavunoSasa kununua pembejeo. Msimu uliopita nilivuna maharage mengi kuliko miaka yote. Sasa naweza kuweka akiba na kupanga mustakabali wangu."</p>
+                        <p class="testimonial-translation">"I received a small loan through MavunoSasa to buy inputs. Last season I harvested more beans than any year. Now I can save and plan for my future."</p>
+                        <p class="testimonial-author">— Baraka Shayo</p>
+                        <p class="testimonial-role">Beans Farmer, Arusha</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">HN</div>
+                        <p class="testimonial-text">"Tangu nijiunge na MavunoSasa, nimejifunza kutumia kilimo cha kisasa. Alizeti yangu sasa inatoa mafuta mengi zaidi na bei sokoni ni nzuri. Nimeweza kujenga nyumba mpya kwa familia yangu."</p>
+                        <p class="testimonial-translation">"Since joining MavunoSasa, I learned modern farming methods. My sunflower now produces more oil and market prices are good. I was able to build a new house for my family."</p>
+                        <p class="testimonial-author">— Halima Ngowi</p>
+                        <p class="testimonial-role">Sunflower Farmer, Iringa</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">EM</div>
+                        <p class="testimonial-text">"Bima ya mazao kutoka MavunoSasa iliniokoa msimu uliopita wakati mvua ilipoacha mapema. Nilipata fidia na kuweza kupanda tena. Sasa sina wasiwasi tena kuhusu hali ya hewa."</p>
+                        <p class="testimonial-translation">"Crop insurance from MavunoSasa saved me last season when rains stopped early. I received compensation and was able to replant. Now I no longer worry about the weather."</p>
+                        <p class="testimonial-author">— Emmanuel Masanja</p>
+                        <p class="testimonial-role">Cotton Farmer, Mwanza</p>
+                    </div>
+                    <!-- Duplicated set for seamless loop -->
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">AM</div>
+                        <p class="testimonial-text">"Kabla ya MavunoSasa, nilikuwa napata gunia 5 tu kwa ekari. Sasa napata gunia 14. Watoto wangu wote wanasoma shule nzuri na maisha yamebadilika kabisa."</p>
+                        <p class="testimonial-translation">"Before MavunoSasa, I only got 5 bags per acre. Now I get 14. All my children attend good schools and life has completely changed."</p>
+                        <p class="testimonial-author">— Amina Mwakasaka</p>
+                        <p class="testimonial-role">Rice Farmer, Morogoro</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">JM</div>
+                        <p class="testimonial-text">"Mafunzo ya kilimo bora yamenisaidia sana. Sasa natumia mbegu bora na mbolea kwa wakati. Mazao yangu yameongezeka mara mbili na ninapata bei nzuri sokoni."</p>
+                        <p class="testimonial-translation">"The modern farming training helped me greatly. Now I use quality seeds and timely fertilizer. My yields have doubled and I get fair prices at market."</p>
+                        <p class="testimonial-author">— Juma Mhando</p>
+                        <p class="testimonial-role">Maize Farmer, Dodoma</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">RK</div>
+                        <p class="testimonial-text">"MavunoSasa wameniunganisha na wanunuzi wa kahawa moja kwa moja. Sasa siuzi kwa dalali — napata bei halisi ya kahawa yangu. Familia yangu inafurahi sana."</p>
+                        <p class="testimonial-translation">"MavunoSasa connected me directly with coffee buyers. Now I don't sell through middlemen — I get the real price for my coffee. My family is very happy."</p>
+                        <p class="testimonial-author">— Rehema Kileo</p>
+                        <p class="testimonial-role">Coffee Farmer, Mbeya</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">BS</div>
+                        <p class="testimonial-text">"Nilipata mkopo mdogo kupitia MavunoSasa kununua pembejeo. Msimu uliopita nilivuna maharage mengi kuliko miaka yote. Sasa naweza kuweka akiba na kupanga mustakabali wangu."</p>
+                        <p class="testimonial-translation">"I received a small loan through MavunoSasa to buy inputs. Last season I harvested more beans than any year. Now I can save and plan for my future."</p>
+                        <p class="testimonial-author">— Baraka Shayo</p>
+                        <p class="testimonial-role">Beans Farmer, Arusha</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">HN</div>
+                        <p class="testimonial-text">"Tangu nijiunge na MavunoSasa, nimejifunza kutumia kilimo cha kisasa. Alizeti yangu sasa inatoa mafuta mengi zaidi na bei sokoni ni nzuri. Nimeweza kujenga nyumba mpya kwa familia yangu."</p>
+                        <p class="testimonial-translation">"Since joining MavunoSasa, I learned modern farming methods. My sunflower now produces more oil and market prices are good. I was able to build a new house for my family."</p>
+                        <p class="testimonial-author">— Halima Ngowi</p>
+                        <p class="testimonial-role">Sunflower Farmer, Iringa</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="avatar avatar-placeholder">EM</div>
+                        <p class="testimonial-text">"Bima ya mazao kutoka MavunoSasa iliniokoa msimu uliopita wakati mvua ilipoacha mapema. Nilipata fidia na kuweza kupanda tena. Sasa sina wasiwasi tena kuhusu hali ya hewa."</p>
+                        <p class="testimonial-translation">"Crop insurance from MavunoSasa saved me last season when rains stopped early. I received compensation and was able to replant. Now I no longer worry about the weather."</p>
+                        <p class="testimonial-author">— Emmanuel Masanja</p>
+                        <p class="testimonial-role">Cotton Farmer, Mwanza</p>
+                    </div>
                 </div>
             </div>
         </div>
