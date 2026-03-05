@@ -356,13 +356,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const formConfigs = {
         farmerForm: {
             nextUrlId: 'farmerFormNextUrl',
-            successTitle: 'Karibu MavunoSasa! 🌾',
-            successMessage: 'Asante kwa kujisajili! Timu yetu itawasiliana nawe ndani ya siku 3 kupitia simu yako. Welcome to the MavunoSasa family — we will contact you within 3 working days.'
+            successTitle: 'Welcome to MavunoSasa! 🌾',
+            successMessage: 'Welcome to the MavunoSasa family! Our team will contact you within 3 working days via your phone number.'
         },
         agentForm: {
             nextUrlId: 'agentFormNextUrl',
-            successTitle: 'Maombi Yamepokelewa! 🤝',
-            successMessage: 'Asante kwa kuomba uwakala. Timu yetu ya uendeshaji shughuli itakagua maombi yako na kukujibu ndani ya siku 5. Thank you for applying — our operations team will review and respond within 5 working days.'
+            successTitle: 'Application Received! 🤝',
+            successMessage: 'Thank you for applying! Our operations team will review your application and respond within 5 working days.'
         },
         investorForm: {
             nextUrlId: 'investorFormNextUrl',
@@ -371,8 +371,8 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         collaborateForm: {
             nextUrlId: 'collabFormNextUrl',
-            successTitle: 'Ujumbe Umepokewa! 🤝',
-            successMessage: 'Asante kwa kuwasiliana nasi! Timu yetu ya ushirikiano itajibu ndani ya siku 2. Thank you — our partnerships team will respond within 48 hours.'
+            successTitle: 'Inquiry Received! 🤝',
+            successMessage: 'Thank you for reaching out! Our partnerships team will respond within 48 hours.'
         }
     };
 
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function() {
         form.addEventListener('submit', function(e) {
             const submitBtn = form.querySelector('button[type="submit"]');
             if (submitBtn) {
-                submitBtn.textContent = 'Inatuma... Sending...';
+                submitBtn.textContent = 'Sending...';
                 submitBtn.disabled = true;
             }
             // Form submits natively to FormSubmit.co
