@@ -1493,9 +1493,14 @@ textarea:focus {
 /* Responsive Carousel */
 @media (max-width: 768px) {
     .hero-carousel {
-        height: auto;
-        min-height: 500px;
+        height: 100vh;
+        height: 100svh;
+        min-height: 420px;
         max-height: none;
+    }
+
+    .hero-slides {
+        height: 100%;
     }
 
     .hero-content h1 {
@@ -1532,7 +1537,7 @@ textarea:focus {
 
 @media (max-width: 480px) {
     .hero-carousel {
-        min-height: 450px;
+        min-height: 360px;
     }
 
     .hero-content h1 {
