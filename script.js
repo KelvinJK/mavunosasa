@@ -212,6 +212,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
 
     if (contactForm) {
+        // Anti-spam: Set action dynamically
+        contactForm.action = 'https://formsubmit.co/' + 'mentoratanzania' + '@' + 'gmail.com';
+
         // Set the redirect URL to current page with success parameter
         const nextUrl = document.getElementById('formNextUrl');
         if (nextUrl) {
@@ -384,6 +387,9 @@ document.addEventListener('DOMContentLoaded', function() {
     Object.entries(formConfigs).forEach(([formId, config]) => {
         const form = document.getElementById(formId);
         if (!form) return;
+
+        // Anti-spam: Set action dynamically
+        form.action = 'https://formsubmit.co/' + 'mentoratanzania' + '@' + 'gmail.com';
 
         // Set redirect URL
         const nextUrl = document.getElementById(config.nextUrlId);
